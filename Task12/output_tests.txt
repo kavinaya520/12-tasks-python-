@@ -1,0 +1,9 @@
+Test                            Expected    Actual  Status
+normal, standard milk             300.00    300.00  PASS
+normal, 4.25 fat 8.70 snf          33.60     33.60  PASS
+Apr-Jun, standard milk            320.00    320.00  PASS
+Apr-Jun, 4.25 fat 8.70 snf         35.98     35.98  PASS
+bonus not earned (500 L)            0.00      0.00  PASS
+bonus earned (600 L)              300.00    300.00  PASS
+Ten-day totals (with/without bonus, both seasons): PASS
+Invalid fat rejected: fat must be between 2.00 and 7.00

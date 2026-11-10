@@ -1,0 +1,5 @@
+payout(10, 3.5, 8.5)    = 300.0
+milkrate.payout(...)    = 283.9
+mr.rate_per_litre(...)  = 27.8
+milkrate cached in sys.modules: True
+first sys.path entry (current directory): /home/claude/repo/Task07

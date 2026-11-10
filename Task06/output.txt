@@ -1,0 +1,4 @@
+returned value reused: 600.0
+ten-day total: 917.5
+lambda example: 16
+99 0

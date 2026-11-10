@@ -1,0 +1,12 @@
+Test                Expected    Actual  Status
+above standard        283.90    283.90  PASS
+below standard        333.60    333.60  PASS
+boundary 3.5/8.5      300.00    300.00  PASS
+lowest fat 2.0        112.50    112.50  PASS
+highest fat 7.0       910.00    910.00  PASS
+text input          rejected  rejected  PASS
+negative litres     rejected  rejected  PASS
+fat too low         rejected  rejected  PASS
+fat too high        rejected  rejected  PASS
+Five-entry total 1940.00: PASS
+All tests passed

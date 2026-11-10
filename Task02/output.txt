@@ -1,0 +1,13 @@
+float  : 33400.30000000061
+Decimal: 33400.30
+False True
+
+Integer paise      : 3340030 paise
+float + round each : 33400.3
+
+sys.getsizeof (bytes)
+  Decimal : 104
+  int     : 28
+  float   : 24
+
+Decimal(float(amount)) total: 33400.29999999999857893118278

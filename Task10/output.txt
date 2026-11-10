@@ -1,0 +1,14 @@
+float vs Decimal totals
+       n |            float total |    Decimal total |  float s | Decimal s
+     300 |               101489.4 |        101489.40 |   0.0004 |    0.0008
+    6000 |              2029788.0 |       2029788.00 |   0.0068 |    0.0167
+  150000 |             50744700.0 |      50744700.00 |   0.2121 |    0.4545
+
+Rounding each payment vs rounding only the final total (n = 300)
+  round each payment, then add : 101489.40
+  add exactly, round the total : 101489.40
+  (a bank pays each farmer a rounded amount, so rounding each payment matches the bank)
+
+Rate table (dictionary) vs recalculation, 150,000 entries
+  dictionary lookup : 0.0599 s   (k = 5 distinct pairs stored)
+  recalculation     : 0.2113 s

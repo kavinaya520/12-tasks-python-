@@ -1,0 +1,13 @@
+int() and float() conversions
+12 8.5 12
+
+Handling invalid input
+      text | try/except | str methods
+     '8.5' |        8.5 |         8.5
+   ' 8.5 ' |        8.5 |         8.5
+     '8,5' |       None |        None
+   'eight' |       None |        None
+
+Formatted output with f-strings
+Amount:   283.90
+F001     10.0 L    300.00
